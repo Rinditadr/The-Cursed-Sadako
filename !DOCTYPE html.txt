@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Cursed Sadako - Themed Hotel</title>
+  <style>
+    /* Add your CSS styles here */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      color: #000000;
+    }
+
+    /* Other styles go here */
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* Add more styles as needed */
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>The Cursed Sadako - Themed Hotel</h1>
+    <p>Narasi yang menjadi dasar adalah arwah Sadako yang sering menculik anak karena ketidakterimaannya terhadap kematiannya. Pengunjung hotel berperan sebagai pengantar agar Sadako bisa "narimo ing pandum" ini merupakan filosofi diri agar menerima diri apa adanya.</p>
+    <p>Our hotel offers a unique experience that combines the haunting allure of Sadako with the rich cultural heritage of Purwokerto.</p>
+    <h2>Features and Amenities</h2>
+    <ul>
+      <li>Comfortable and stylishly themed rooms</li>
+      <li>Delicious fusion of Javanese and Japanese cuisine</li>
+      <li>Enchanting ambience inspired by Sadako and Purwokerto</li>
+      <li>Attentive and friendly staff</li>
+    </ul>
+    <h2>Reservations</h2>
+    <p>Book your stay at The Cursed Sadako today. Fill out the form below to make a reservation or request more information.</p>
+    <form action="reservation.php" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+      <label for="check-in">Check-in Date:</label>
+      <input type="date" id="check-in" name="check-in" required><br>
+      <label for="check-out">Check-out Date:</label>
+      <input type="date" id="check-out" name="check-out" required><br>
+      <label for="guests">Number of Guests:</label>
+      <input type="number" id="guests" name="guests" min="1" max="10" required><br>
+      <input type="submit" value="Submit">
+    </form>
+    <h2>Testimonials</h2>
+    <p>Read what our guests have to say about their unforgettable experiences at The Cursed Sadako.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed lacus justo. Fusce a odio vitae tellus auctor laoreet. Sed in ligula ut sem consectetur gravida.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed lacus justo. Fusce a odio vitae tellus auctor laoreet. Sed
